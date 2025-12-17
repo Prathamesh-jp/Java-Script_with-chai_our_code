@@ -60,7 +60,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course // it make easy to take value from the course object this can used in company
 
 // console.log(courseInstructor);
 console.log(instructor);
