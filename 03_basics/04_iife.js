@@ -10,3 +10,6 @@
     // unnamed iife
     console.log(`DB CONNECTED TWO ${name}`);
 } )('hitesh')
+
+
+// why we use iife because we have to save our function from global scope pollution problem 

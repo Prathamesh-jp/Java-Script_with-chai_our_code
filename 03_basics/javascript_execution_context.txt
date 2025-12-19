@@ -1,0 +1,23 @@
+// Global Execution Context (GEC)
+// - Created when the JavaScript program starts running
+// - Only one global context exists in a program
+// - Creates the global object (window in browser)
+// - Sets `this` keyword to the global object
+// - Stores all variables and functions declared outside any function
+// - Performs hoisting before code execution
+
+// Functional Execution Context (FEC)
+// - Created every time a function is called
+// - Each function call gets its own separate context
+// - Stores function parameters, local variables, and inner functions
+// - Has its own `this` value
+// - Uses hoisting inside the function
+// - Removed from call stack after function execution completes
+
+// Eval Execution Context
+// - Created when eval() function is used
+// - Executes JavaScript code written as a string
+// - Has access to surrounding scope
+// - Slows down performance
+// - Can cause security issues, so avoided in real projects
+
